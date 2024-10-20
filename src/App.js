@@ -8,7 +8,7 @@ import "./styles/style.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/evina00.github.io/photo">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />}></Route>
